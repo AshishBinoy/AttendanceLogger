@@ -59,9 +59,7 @@ func main() {
 		log.Fatalf("%s", err3)
 	}
 
-	if err4 != nil {
-		errorHandler(err4)
-		log.Fatalf("%s", err4)
+	
 	}
 
 }
