@@ -1,4 +1,4 @@
-package main
+gpackage main
 
 //Import packages
 import (
@@ -35,6 +35,10 @@ func getStudentInfo() (name, roll, course string) {
 
 //Main
 func main() {
+	fmt.println("Welcome to attendance logger")
+
+
+
 	name, roll, course := getStudentInfo()
 
 	file, err := os.Create("attendance.txt")
